@@ -1,0 +1,23 @@
+/* ProductSlider.css */
+.slick-slide {
+    transition: transform 0.5s ease !important;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .slick-slide {
+      flex: 0 0 20% !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slick-slide {
+      flex: 0 0 33.33% !important;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .slick-slide {
+      flex: 0 0 50% !important;
+    }
+  }
+  
